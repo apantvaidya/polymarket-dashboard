@@ -1,0 +1,9 @@
+websockets
+requests
+pydantic
+sqlalchemy
+python-dotenv
+pytest
+matplotlib
+streamlit
+pandas

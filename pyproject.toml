@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "market_edge"
+version = "0.1.0"
+description = "Polymarket soccer market watcher (read-only)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+
+dependencies = [
+  "websockets",
+  "requests",
+  "pydantic",
+  "sqlalchemy",
+  "python-dotenv",
+  "pytest",
+  "matplotlib",
+  "streamlit",
+  "pandas",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,5 @@
+{
+  "question": "Match Result: Home/Draw/Away",
+  "outcomes": ["Home", "Draw", "Away"],
+  "tokenIds": ["1", "2", "3"]
+}

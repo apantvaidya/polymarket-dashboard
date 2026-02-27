@@ -81,6 +81,3 @@ python -m market_edge.replay --path data/events.jsonl --levels 5 --speed 1.0
 pytest
 ```
 
-## Not a Trading Bot
-
-This project is strictly read-only and intended for data ingestion and analysis.
